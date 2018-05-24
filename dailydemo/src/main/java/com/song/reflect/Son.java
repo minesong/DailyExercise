@@ -6,10 +6,15 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Son extends Parent {
+
     private Integer sid;
     protected String sname;
     public String spassword;
     String semail;
+
+    public void see() {
+        System.out.println("son");
+    }
 
     public Integer getSid() {
         return sid;
@@ -44,7 +49,10 @@ public class Son extends Parent {
     }
 
     public static void main(String[] args) {
+
         Son son = new Son();
+        Parent parent = new Son();
+        parent.see();
         getDeclaredFields(son);
         System.out.println("--------------");
         getFields(son);
@@ -55,6 +63,7 @@ public class Son extends Parent {
         getSuperclassgetDeclaredFields(son);
 
     }
+
     //获取当前类的所有属性，不包括弗雷
     public static void getDeclaredFields(Son son) {
         Class clazz = son.getClass();
@@ -66,6 +75,7 @@ public class Son extends Parent {
         fieldList.toArray(fields);
         System.out.println(fieldList);
     }
+
     //只能获取当前类及父类的公共属性
     public static void getFields(Son son) {
         Class clazz = son.getClass();

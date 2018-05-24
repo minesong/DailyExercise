@@ -5,7 +5,9 @@ public class Parent {
     protected String pname;
     public String ppassword;
     String pemail;
-
+    public void see(){
+        System.out.println("parent");
+    }
     public Integer getPid() {
         return pid;
     }

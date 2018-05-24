@@ -11,6 +11,7 @@
         <module name="dubbo-consumer" />
         <module name="dubbo-consumer2" />
         <module name="dubbo-provider" />
+        <module name="javaagent" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="dubbo-consumer" target="1.7" />
       <module name="dubbo-consumer2" target="1.7" />
       <module name="dubbo-provider" target="1.7" />
+      <module name="javaagent" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
