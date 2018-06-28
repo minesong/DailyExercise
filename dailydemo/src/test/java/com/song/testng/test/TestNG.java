@@ -8,9 +8,7 @@ import org.testng.collections.Lists;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 public class TestNG {
 
@@ -31,7 +29,7 @@ public class TestNG {
         List<String> stringList = Lists.newArrayList();
         stringList.add("123");
         stringList.add("6");
-        Objects.equals(1,2);
+        Objects.equals(1, 2);
         //stringList.remove("123");
         System.out.println(stringList);
         //stringList.remove("123");
@@ -42,7 +40,20 @@ public class TestNG {
         System.out.println(stringList);
         //stringList.remove("6");
         System.out.println(stringList);
-        String s =   ToStringBuilder.reflectionToString(stringList);
+        String s = ToStringBuilder.reflectionToString(stringList);
+    }
+
+    @Test
+    public void test_disjoint() {
+        List<Integer> id1 = new ArrayList<>();
+        id1.add(1);
+        id1.add(2);
+        id1.add(3);
+        Set<Integer> id2 = new HashSet<>();
+        id2.add(4);
+        id2.add(5);
+        id2.add(6);
+        System.out.println(Collections.disjoint(id1, id2));
     }
 
 

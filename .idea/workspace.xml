@@ -1,40 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0967e970-80d4-400b-8bdd-8ecf091a38e2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dailydemo/src/test/java/com/song/testng/test/TestDateRelated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dailydemo/src/test/java/com/song/testng/test/TestNG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaagent/javaagent.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaagent/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaagent/src/main/java/com/song/myagent/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaagent/src/main/java/com/song/myagent/FirstAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaagent/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+    <list default="true" id="b7147bf9-c894-4a3b-8216-0a3408836ee1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_simpleframework_simple_xml_2_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_8_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_1_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DubboDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean/bean.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean/src/main/java/com/app/bean/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean/src/main/java/com/app/bean/BeanPostProcessor_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean/src/main/java/com/app/bean/BeanPostProcessor_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean/src/main/java/com/app/bean/TestBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean/src/main/java/com/app/bean/TestBean2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean/target/classes/com/app/bean/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean/target/classes/com/app/bean/BeanPostProcessor_1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean/target/classes/com/app/bean/BeanPostProcessor_2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean/target/classes/com/app/bean/TestBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean/target/classes/com/app/bean/TestBean2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/reflect/FastJSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/ItemsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/LatticeSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/LatticeSystemEnv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/LatticeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/ModelParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/Rows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/SpiritValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/SystemEnv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/song.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/sys_env(1).xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/sys_env.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/src/main/main1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/target/classes/com/song/reflect/FastJSON.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/target/classes/com/song/simple/Items.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/target/classes/com/song/simple/ItemsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/target/classes/com/song/simple/LatticeSystem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/target/classes/com/song/simple/LatticeSystemEnv.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/target/classes/com/song/simple/LatticeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/target/classes/com/song/simple/ModelParameter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/target/classes/com/song/simple/Rows.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/target/classes/com/song/simple/SpiritValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/target/classes/com/song/simple/SystemEnv.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/target/test-classes/com/song/testng/test/TestDateRelated.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailydemo/target/test-classes/com/song/testng/test/TestNG.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-api/src/main/main3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-consumer2/src/main/main2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaagent/src/main/main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dailydemo/dailydemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dailydemo/dailydemo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dailydemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dailydemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/beantils/MyUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/beantils/MyUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/beantils/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/beantils/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/reflect/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/reflect/Parent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/reflect/Son.java" beforeDir="false" afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/reflect/Son.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/beantils/MyUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/dailydemo/target/classes/com/song/beantils/MyUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/beantils/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/dailydemo/target/classes/com/song/beantils/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/reflect/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/dailydemo/target/classes/com/song/reflect/Parent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/reflect/Son.class" beforeDir="false" afterPath="$PROJECT_DIR$/dailydemo/target/classes/com/song/reflect/Son.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dailydemo/src/test/java/com/song/testng/test/TestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/dailydemo/src/test/java/com/song/testng/test/TestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/dubbo-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/dubbo-consumer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/dubbo-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/src/dubbo-consumer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/dubbo-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/dubbo-provider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaagent/javaagent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaagent/javaagent.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/dubbo-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/dailydemo/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-consumer2/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
-    <ignored path="$PROJECT_DIR$/dubbo-consumer/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
-    <ignored path="$PROJECT_DIR$/dailydemo/target/" />
     <ignored path="$PROJECT_DIR$/javaagent/target/" />
+    <ignored path="$PROJECT_DIR$/bean/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,39 +86,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/DatatablesDemo_master$Consumer.ic" NAME="Consumer Coverage Results" MODIFIED="1526631874799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.alibaba.dubbo.consumer.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/DatatablesDemo_master$TestNG_testListRemove.ic" NAME="TestNG.testListRemove Coverage Results" MODIFIED="1526896291193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.song.testng.test.*</FILTER>
-    </SUITE>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dailydemo/pom.xml">
+      <file leaf-file-name="SystemEnv.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/SystemEnv.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javaagent/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="30" column="43" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestDateRelated.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dailydemo/src/test/java/com/song/testng/test/TestDateRelated.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+            <state relative-caret-position="225">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,69 +100,101 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="javaagent.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaagent/javaagent.iml">
+      <file leaf-file-name="ItemsTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/ItemsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LatticeTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/LatticeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Items.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/Items.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="64" column="26" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LatticeSystemEnv.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/LatticeSystemEnv.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelParameter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/ModelParameter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpiritValue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/SpiritValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="song.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/song.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="MANIFEST.MF" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaagent/src/main/resources/META-INF/MANIFEST.MF">
+      <file leaf-file-name="Text.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1-sources.jar!/org/simpleframework/xml/Text.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="35" />
+            <state relative-caret-position="775">
+              <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstAgent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaagent/src/main/java/com/song/myagent/FirstAgent.java">
+      <file leaf-file-name="Rows.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/Rows.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="800">
+              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaagent/src/main/java/com/song/myagent/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#528#529#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassFileTransformer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java/jdk7/src.zip!/java/lang/instrument/ClassFileTransformer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3075">
-              <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Instrumentation.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java/jdk7/src.zip!/java/lang/instrument/Instrumentation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="109" column="4" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/beantils/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-298">
-              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -158,45 +208,34 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Object</find>
-      <find>maven.compiler.target</find>
-      <find>Assert</find>
-      <find>equ</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dubbo-provider/src/java/com/alibaba/dubbo/demo/impl/Provider.java" />
-        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/com/alibaba/dubbo/demo/DemoService.java" />
-        <option value="$PROJECT_DIR$/dubbo-provider/src/java/com/alibaba/dubbo/demo/impl/DemoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/com/alibaba/dubbo/demo/User.java" />
-        <option value="$PROJECT_DIR$/dubbo-consumer2/src/main/java/com/alibaba/dubbo/consumer/Parent.java" />
-        <option value="$PROJECT_DIR$/dubbo-consumer2/src/main/java/com/alibaba/dubbo/consumer/Son.java" />
-        <option value="$PROJECT_DIR$/dubbo-consumer2/src/main/java/com/alibaba/dubbo/consumer/Consumer.java" />
-        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/com/alibaba/dubbo/demo/MyUser.java" />
-        <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/beantils/TestBeanUtils.java" />
-        <option value="$PROJECT_DIR$/dubbo-consumer/src/java/com/alibaba/dubbo/consumer/Consumer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/reflect/Parent.java" />
-        <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/reflect/Son.java" />
-        <option value="$PROJECT_DIR$/dailydemo/src/test/java/com/song/testng/test/TestNG.java" />
-        <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/beantils/User.java" />
-        <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/beantils/MyUser.java" />
-        <option value="$PROJECT_DIR$/dailydemo/src/test/java/com/song/testng/test/TestDateRelated.java" />
-        <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/javaagent/MyAgent.java" />
-        <option value="$PROJECT_DIR$/dailydemo/src/main/resources/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/reflect/FastJSON.java" />
+        <option value="$PROJECT_DIR$/bean/src/main/java/Hello.java" />
+        <option value="$PROJECT_DIR$/bean/src/main/java/BeanPostProcessor_2.java" />
+        <option value="$PROJECT_DIR$/bean/src/main/java/BeanPostProcessor_1.java" />
+        <option value="$PROJECT_DIR$/bean/src/main/java/App.java" />
+        <option value="$PROJECT_DIR$/bean/src/main/java/com/app/bean/BeanPostProcessor_2.java" />
+        <option value="$PROJECT_DIR$/bean/src/main/java/com/app/bean/TestBean2.java" />
+        <option value="$PROJECT_DIR$/bean/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/bean/src/main/java/com/app/bean/TestBean.java" />
+        <option value="$PROJECT_DIR$/bean/src/main/java/com/app/bean/BeanPostProcessor_1.java" />
+        <option value="$PROJECT_DIR$/bean/pom.xml" />
+        <option value="$PROJECT_DIR$/bean/src/main/java/com/app/bean/App.java" />
         <option value="$PROJECT_DIR$/dailydemo/pom.xml" />
-        <option value="$PROJECT_DIR$/javaagent/src/main/java/com/song/myagent/MyAgent.java" />
-        <option value="$PROJECT_DIR$/javaagent/pom.xml" />
-        <option value="$PROJECT_DIR$/javaagent/src/main/resources/META-INF/MANIFEST.MF" />
-        <option value="$PROJECT_DIR$/javaagent/src/main/java/com/song/myagent/App.java" />
-        <option value="$PROJECT_DIR$/javaagent/src/main/java/com/song/myagent/FirstAgent.java" />
+        <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/Rows.java" />
+        <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/Items.java" />
+        <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/ItemsTest.java" />
+        <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/SystemEnv.java" />
+        <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/LatticeSystem.java" />
+        <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/LatticeSystemEnv.java" />
+        <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/LatticeTest.java" />
+        <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/SpiritValue.java" />
+        <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/ModelParameter.java" />
       </list>
     </option>
   </component>
@@ -206,39 +245,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="dailydemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="dailydemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="javaagent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="javaagent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1080" />
-    <option name="height" value="1016" />
+    <option name="x" value="781" />
+    <option name="y" value="3" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -247,44 +261,76 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="DatatablesDemo-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DatatablesDemo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DatatablesDemo-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DatatablesDemo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
               <item name="dailydemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DatatablesDemo-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DatatablesDemo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
               <item name="dailydemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DatatablesDemo-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DatatablesDemo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
               <item name="dailydemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DatatablesDemo-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DatatablesDemo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
               <item name="dailydemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DatatablesDemo-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DatatablesDemo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
               <item name="dailydemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -292,113 +338,215 @@
               <item name="song" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DatatablesDemo-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DatatablesDemo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
               <item name="dailydemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="song" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DatatablesDemo-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DatatablesDemo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
               <item name="dailydemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="song" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DatatablesDemo-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DatatablesDemo-master" type="462c0819:PsiDirectoryNode" />
-              <item name="dailydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DatatablesDemo-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DatatablesDemo-master" type="462c0819:PsiDirectoryNode" />
-              <item name="javaagent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DatatablesDemo-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DatatablesDemo-master" type="462c0819:PsiDirectoryNode" />
-              <item name="javaagent" type="462c0819:PsiDirectoryNode" />
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DatatablesDemo-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DatatablesDemo-master" type="462c0819:PsiDirectoryNode" />
-              <item name="javaagent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DatatablesDemo-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DatatablesDemo-master" type="462c0819:PsiDirectoryNode" />
-              <item name="javaagent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DatatablesDemo-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DatatablesDemo-master" type="462c0819:PsiDirectoryNode" />
-              <item name="javaagent" type="462c0819:PsiDirectoryNode" />
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myagent" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DatatablesDemo-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DatatablesDemo-master" type="462c0819:PsiDirectoryNode" />
-              <item name="javaagent" type="462c0819:PsiDirectoryNode" />
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DatatablesDemo-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DatatablesDemo-master" type="462c0819:PsiDirectoryNode" />
-              <item name="javaagent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DatatablesDemo-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DatatablesDemo-master" type="462c0819:PsiDirectoryNode" />
-              <item name="javaagent" type="462c0819:PsiDirectoryNode" />
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.simpleframework:simple-xml:2.7.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.simpleframework:simple-xml:2.7.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="simple-xml-2.7.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DailyExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.simpleframework:simple-xml:2.7.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="simple-xml-2.7.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dailydemo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\soft\DatatablesDemo-master\javaagent\src\main\resources" />
-      <recent name="D:\soft\DatatablesDemo-master\javaagent\src\main\java" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.song.simple" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\soft\DatatablesDemo-master\dailydemo\src\main\java\com\song\beantils" />
-      <recent name="D:\soft\DatatablesDemo-master\dailydemo\src\main\java" />
+      <recent name="D:\haitao\DailyExercise\dailydemo\src\main\java\com\song\simple" />
+      <recent name="D:\haitao\DailyExercise\bean\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.app.bean" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\haitao\DailyExercise\dailydemo\src\main\java\com\song\simple" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -413,26 +561,58 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.LatticeTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.song.myagent.App" />
-      <module name="javaagent" />
-      <option name="VM_PARAMETERS" value="-javaagent:D:\soft\DatatablesDemo-master\javaagent\target\javaagent-1.0-SNAPSHOT-shaded.jar" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="com.app.bean.App" />
+      <module name="bean" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.song.myagent.*" />
+          <option name="PATTERN" value="com.app.bean.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Son" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.song.reflect.Son" />
+    <configuration name="FastJSON (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.song.reflect.FastJSON" />
       <module name="dailydemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.song.reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="FastJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.song.reflect.FastJSON" />
+      <module name="main1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.song.reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ItemsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.song.simple.ItemsTest" />
+      <module name="dailydemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.song.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="LatticeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.song.simple.LatticeTest" />
+      <module name="dailydemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.song.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -456,93 +636,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestDateRelated.testJoda" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="dailydemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.song.testng.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.song.testng.test" />
-      <option name="MAIN_CLASS_NAME" value="com.song.testng.test.TestDateRelated" />
-      <option name="METHOD_NAME" value="testJoda" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="TestNG.testDate2String" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="dailydemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.song.testng.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.song.testng.test" />
-      <option name="MAIN_CLASS_NAME" value="com.song.testng.test.TestNG" />
-      <option name="METHOD_NAME" value="testDate2String" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="TestNG.testString2Date" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="dailydemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.song.testng.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.song.testng.test" />
-      <option name="MAIN_CLASS_NAME" value="com.song.testng.test.TestNG" />
-      <option name="METHOD_NAME" value="testString2Date" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -565,30 +658,20 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="DailyExercise" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
     <list>
-      <item itemvalue="Application.Son" />
+      <item itemvalue="Application.FastJSON" />
+      <item itemvalue="Application.FastJSON (1)" />
       <item itemvalue="Application.App" />
-      <item itemvalue="TestNG.TestNG.testDate2String" />
-      <item itemvalue="TestNG.TestNG.testString2Date" />
-      <item itemvalue="TestNG.TestDateRelated.testJoda" />
+      <item itemvalue="Application.ItemsTest" />
+      <item itemvalue="Application.LatticeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LatticeTest" />
+        <item itemvalue="Application.ItemsTest" />
         <item itemvalue="Application.App" />
-        <item itemvalue="TestNG.TestDateRelated.testJoda" />
-        <item itemvalue="TestNG.TestNG.testString2Date" />
-        <item itemvalue="TestNG.TestNG.testDate2String" />
-        <item itemvalue="Application.Son" />
+        <item itemvalue="Application.FastJSON (1)" />
+        <item itemvalue="Application.FastJSON" />
       </list>
     </recent_temporary>
   </component>
@@ -597,113 +680,64 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0967e970-80d4-400b-8bdd-8ecf091a38e2" name="Default" comment="" />
-      <created>1526626035202</created>
+      <changelist id="b7147bf9-c894-4a3b-8216-0a3408836ee1" name="Default" comment="" />
+      <created>1527667742226</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1526626035202</updated>
-      <workItem from="1526626040198" duration="1619000" />
-      <workItem from="1526631656732" duration="4713000" />
-      <workItem from="1526867679012" duration="10666000" />
-      <workItem from="1526953391905" duration="1069000" />
-      <workItem from="1527040423028" duration="585000" />
-      <workItem from="1527055904492" duration="1240000" />
-      <workItem from="1527074782557" duration="1276000" />
-      <workItem from="1527126362230" duration="1189000" />
-      <workItem from="1527139879744" duration="11559000" />
+      <updated>1527667742226</updated>
+      <workItem from="1527667749292" duration="1193000" />
+      <workItem from="1528077709350" duration="10281000" />
+      <workItem from="1528170268629" duration="567000" />
+      <workItem from="1528180323000" duration="580000" />
+      <workItem from="1528250441080" duration="1180000" />
+      <workItem from="1528336783414" duration="581000" />
+      <workItem from="1529991193061" duration="1152000" />
+      <workItem from="1529994286330" duration="8557000" />
+      <workItem from="1530063917937" duration="7238000" />
+      <workItem from="1530150169943" duration="629000" />
     </task>
-    <task id="LOCAL-00001" summary="toString#toStringBuilder">
-      <created>1526874203891</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1526874203891</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="TestNG_testListRemove - 2018.05.24 at 15h 54m 43s.xml">
-      <configuration name="TestNG.testListRemove" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNG_testListRemove - 2018.05.24 at 15h 55m 29s.xml">
-      <configuration name="TestNG.testListRemove" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNG_testDate2String - 2018.05.24 at 16h 54m 26s.xml">
-      <configuration name="TestNG.testDate2String" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNG_testDate2String - 2018.05.24 at 16h 55m 13s.xml">
-      <configuration name="TestNG.testDate2String" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNG_testString2Date - 2018.05.24 at 16h 57m 33s.xml">
-      <configuration name="TestNG.testString2Date" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNG_testString2Date - 2018.05.24 at 16h 58m 25s.xml">
-      <configuration name="TestNG.testString2Date" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestDateRelated_testJoda - 2018.05.24 at 17h 08m 40s.xml">
-      <configuration name="TestDateRelated.testJoda" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestDateRelated_testJoda - 2018.05.24 at 17h 14m 59s.xml">
-      <configuration name="TestDateRelated.testJoda" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestDateRelated_testJoda - 2018.05.24 at 17h 17m 43s.xml">
-      <configuration name="TestDateRelated.testJoda" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestDateRelated_testJoda - 2018.05.24 at 17h 18m 33s.xml">
-      <configuration name="TestDateRelated.testJoda" configurationId="TestNG" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33916000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="31958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.6068627" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32938388" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="CDI" order="3" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.5033113" side_tool="true" weight="0.13859275" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="JSF" order="3" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32777777" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32963374" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3288889" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20222223" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3288889" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49668875" visible="true" weight="0.12633263" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11673774" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.32995737" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -712,532 +746,373 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="toString#toStringBuilder" />
-    <option name="LAST_COMMIT_MESSAGE" value="toString#toStringBuilder" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dubbo-provider/src/java/com/alibaba/dubbo/demo/impl/DemoServiceImpl.java</url>
+          <url>file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/reflect/FastJSON.java</url>
+          <line>26</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/bean/src/main/java/com/app/bean/App.java</url>
           <line>20</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dubbo-provider/src/java/com/alibaba/dubbo/demo/impl/DemoServiceImpl.java</url>
-          <line>25</line>
+          <url>file://$PROJECT_DIR$/bean/src/main/java/com/app/bean/App.java</url>
+          <line>13</line>
           <properties />
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/reflect/Son.java</url>
-          <line>75</line>
+          <url>file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/ItemsTest.java</url>
+          <line>12</line>
           <properties />
-          <option name="timeStamp" value="12" />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/reflect/Son.java</url>
-          <line>87</line>
+          <url>file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/LatticeTest.java</url>
+          <line>18</line>
           <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/reflect/Son.java</url>
-          <line>98</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/reflect/Son.java</url>
-          <line>109</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dubbo-consumer/src/java/com/alibaba/dubbo/consumer/Consumer.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/beantils/TestBeanUtils.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/beantils/TestBeanUtils.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dailydemo/src/test/java/com/song/testng/test/TestNG.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/reflect/Son.java</url>
-          <line>55</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dailydemo/src/test/java/com/song/testng/test/TestDateRelated.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/javaagent/src/main/java/com/song/myagent/App.java</url>
-          <line>9</line>
-          <properties />
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/javaagent/src/main/java/com/song/myagent/FirstAgent.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="43" />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="44" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dailydemo/dailydemo.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1061">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/java/com/alibaba/dubbo/demo/impl/DemoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/alibaba/dubbo/demo/MyUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk7/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="632" column="16" selection-start-line="632" selection-start-column="16" selection-end-line="632" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/java/com/alibaba/dubbo/consumer/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/alibaba/dubbo/demo/DemoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/beantils/TestBeanUtils.java">
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/SystemEnv.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.21/testng-6.8.21.jar!/org/testng/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailydemo/src/test/java/com/song/testng/test/TestNull.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/base/Absent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="41" column="36" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="36" />
-          <folding>
-            <element signature="e#1252#1253#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/base/Present.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-          <folding>
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/base/Optional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1225">
-          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk7/src.zip!/java/lang/InterruptedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar!/org/apache/commons/lang/builder/ReflectionToStringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="538" column="10" selection-start-line="538" selection-start-column="10" selection-end-line="538" selection-end-column="10" />
-          <folding>
-            <element signature="e#3923#3924#0" expanded="true" />
-            <element signature="e#3988#3989#0" expanded="true" />
-            <element signature="e#24988#24989#0" expanded="true" />
-            <element signature="e#25044#25045#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar!/org/apache/commons/lang/builder/ToStringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="154" column="24" selection-start-line="154" selection-start-column="18" selection-end-line="154" selection-end-column="24" />
-          <folding>
-            <element signature="e#6051#6052#0" expanded="true" />
-            <element signature="e#6116#6117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk7/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="314" column="6" selection-start-line="314" selection-start-column="6" selection-end-line="314" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk7/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="107" column="19" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk7/src.zip!/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="6565" column="26" selection-start-line="6565" selection-start-column="26" selection-end-line="6565" selection-end-column="26" />
-          <folding>
-            <element signature="e#238439#238440#0" expanded="true" />
-            <element signature="e#238483#238484#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar!/org/apache/commons/lang/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="230" column="26" selection-start-line="230" selection-start-column="26" selection-end-line="230" selection-end-column="26" />
-          <folding>
-            <element signature="e#9637#9638#0" expanded="true" />
-            <element signature="e#9685#9686#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar!/org/apache/commons/lang3/ObjectUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="151" column="59" selection-start-line="151" selection-start-column="59" selection-end-line="151" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk7/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="148" column="19" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="19" />
-          <folding>
-            <element signature="e#5860#5861#0" expanded="true" />
-            <element signature="e#5896#5897#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk7/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
-          <folding>
-            <element signature="e#1373#1374#0" expanded="true" />
-            <element signature="e#1434#1435#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/reflect/Parent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="5" selection-start-line="7" selection-start-column="2" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/reflect/Son.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk7/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="271" column="15" selection-start-line="271" selection-start-column="15" selection-end-line="271" selection-end-column="15" />
-          <folding>
-            <element signature="e#10666#10667#0" expanded="true" />
-            <element signature="e#10696#10697#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk7/src.zip!/java/text/SimpleDateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="557" column="11" selection-start-line="557" selection-start-column="11" selection-end-line="557" selection-end-column="11" />
-          <folding>
-            <element signature="e#21767#21768#0" expanded="true" />
-            <element signature="e#21839#21840#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/standardSchemas/XMLSchema.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="1215" column="1" selection-start-line="1215" selection-start-column="1" selection-end-line="1215" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="282" column="12" selection-start-line="282" selection-start-column="12" selection-end-line="282" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar!/org/joda/time/base/AbstractDateTime.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar!/org/joda/time/base/BaseDateTime.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
-          <folding>
-            <element signature="e#3499#3500#0" expanded="true" />
-            <element signature="e#3534#3535#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar!/org/joda/time/base/AbstractInstant.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="91" column="16" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
-          <folding>
-            <element signature="e#2893#2894#0" expanded="true" />
-            <element signature="e#2942#2943#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar!/org/joda/time/DateTime.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
-          <folding>
-            <element signature="e#1719#1720#0" expanded="true" />
-            <element signature="e#1746#1747#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar!/org/joda/time/base/AbstractInstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="233" column="16" selection-start-line="233" selection-start-column="16" selection-end-line="233" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar!/org/joda/time/DateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="207" column="11" selection-start-line="207" selection-start-column="11" selection-end-line="207" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar!/org/joda/time/base/BaseDateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="303" column="16" selection-start-line="303" selection-start-column="16" selection-end-line="303" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar!/org/joda/time/base/AbstractDateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailydemo/src/test/java/com/song/testng/test/TestNG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/beantils/MyUser.java">
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/ItemsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        <state relative-caret-position="350">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/beantils/User.java">
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/LatticeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-298">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        <state relative-caret-position="200">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaagent/src/main/java/javaagent/MyAgent.java">
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/Items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="64" column="26" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/LatticeSystemEnv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/ModelParameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1-sources.jar!/org/simpleframework/xml/Text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1-sources.jar!/org/simpleframework/xml/Root.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/Rows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/SpiritValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk7/src.zip!/java/lang/instrument/ClassFileTransformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3075">
-          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk7/src.zip!/java/lang/instrument/Instrumentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="109" column="4" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaagent/src/main/resources/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaagent/src/main/java/com/song/myagent/FirstAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaagent/src/main/java/com/song/myagent/App.java">
+    <entry file="file://$PROJECT_DIR$/bean/src/main/java/com/app/bean/TestBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="475">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/ItemsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/Items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="64" column="26" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar!/org/apache/commons/lang3/builder/ToStringStyle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2350">
+          <caret line="94" column="38" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/LatticeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/LatticeSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk7/jre/lib/resources.jar!/com/sun/org/apache/xalan/internal/res/XSLTInfo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/Rows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dailydemo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="525">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dailydemo/src/test/java/com/song/testng/test/TestDateRelated.java">
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/SystemEnv.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        <state relative-caret-position="300">
+          <caret line="22" column="79" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaagent/javaagent.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaagent/pom.xml">
+    <entry file="file://$PROJECT_DIR$/bean/src/main/java/com/app/bean/TestBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="30" column="43" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="43" />
+        <state relative-caret-position="475">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar!/org/apache/commons/lang3/builder/ToStringStyle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2350">
+          <caret line="94" column="38" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk7/jre/lib/resources.jar!/com/sun/org/apache/xalan/internal/res/XSLTInfo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.jar!/org/simpleframework/xml/ElementList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1-sources.jar!/org/simpleframework/xml/ElementList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1330">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1-sources.jar!/org/simpleframework/xml/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/LatticeSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1-sources.jar!/org/simpleframework/xml/Root.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/Items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="64" column="26" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/ItemsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/LatticeSystemEnv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/Rows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/LatticeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1-sources.jar!/org/simpleframework/xml/Text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/SystemEnv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/ModelParameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/SpiritValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/simple/song.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -1293,7 +1168,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>javaagent</last-edited>
+          <last-edited>bean</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

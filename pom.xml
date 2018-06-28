@@ -12,6 +12,7 @@
     <module>dubbo-consumer2</module>
       <module>dailydemo</module>
       <module>javaagent</module>
+      <module>bean</module>
   </modules>
   <name>DubboDemo Maven Webapp</name>
   <url>http://maven.apache.org</url>
@@ -36,7 +37,7 @@
 
   </properties>
   <dependencies>
-    <!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
+
     <dependency>
       <groupId>commons-beanutils</groupId>
       <artifactId>commons-beanutils</artifactId>

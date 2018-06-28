@@ -1,0 +1,16 @@
+﻿<lattice:items xmlns:lattice="http://www.latticesemi.com/lattice">
+    <totalResults>1</totalResults>
+    <totalResultsAll>1</totalResultsAll>
+	<color>big-red</color>
+    <rows>
+        <productCategory>14662</productCategory>
+        <lattice:sortName>d1</lattice:sortName>
+        <productBrand>9999990</productBrand>
+        <brandName>ESP0</brandName>
+        <productID>AE0501</productID>
+        <productName>d1</productName>
+        <color>red</color>
+        <sizeNo>d</sizeNo>
+        <saleNum>0.000</saleNum>
+    </rows>
+</lattice:items>

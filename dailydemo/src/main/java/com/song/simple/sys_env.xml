@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lattice:systemEnv xmlns:lattice="http://www.latticesemi.com/lattice" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+<lattice:system lattice:id="123" >
+<spirit:version>1.0.1</spirit:version>
+<spirit:name>I2C_Master_0</spirit:name>
+ </lattice:system>
+</lattice:systemEnv>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lattice:systemEnv xmlns:lattice="http://www.latticesemi.com/lattice" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+                <spirit:modelParameter>
+                    <spirit:name>i2c_left_enable</spirit:name>
+                    <spirit:displayName>Enable hard user I2C left</spirit:displayName>
+                    <spirit:description/>
+                    <spirit:value spirit:format="bool" spirit:id="i2c_left_enable" spirit:resolve="generated">False</spirit:value>
+                </spirit:modelParameter>
+</lattice:systemEnv>
