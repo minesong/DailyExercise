@@ -4,8 +4,10 @@ import org.simpleframework.xml.Attribute;
 import org.simpleframework.xml.Element;
 import org.simpleframework.xml.Root;
 
+import java.io.Serializable;
+
 @Root(name = "modelParameter")
-public class ModelParameter {
+public class ModelParameter implements Serializable {
 
     @Element(name = "name", required = false)
     private String spiritName;

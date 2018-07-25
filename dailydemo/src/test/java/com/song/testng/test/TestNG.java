@@ -1,11 +1,14 @@
 package com.song.testng.test;
 
+import org.apache.commons.collections.MultiMap;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.collections.Lists;
 
+import java.io.File;
+import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -56,5 +59,23 @@ public class TestNG {
         System.out.println(Collections.disjoint(id1, id2));
     }
 
+    @Test
+    public void test_getFilePath() throws IOException {
+        System.out.println("------默认相对路径，取得路径不同-----");
+        File f1 = new File("..\\src\\file");
+        System.out.println(f1.getPath());
+        System.out.println(f1.getAbsolutePath());
+        System.out.println(f1.getCanonicalPath());
+        System.out.println("------默认相对路径，取得路径不同-----");
+        File f2 = new File(".\\src\\file");
+        System.out.println(f2.getPath());
+        System.out.println(f2.getAbsolutePath());
+        System.out.println(f2.getCanonicalPath());
+        System.out.println("------默认绝对路径，取得路径相同-----");
+        File f3 = new File("C:\\src\\file");
+        System.out.println(f3.getPath());
+        System.out.println(f3.getAbsolutePath());
+        System.out.println(f3.getCanonicalPath());
+    }
 
 }

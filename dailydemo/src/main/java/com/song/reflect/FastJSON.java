@@ -10,6 +10,8 @@ import com.alibaba.fastjson.JSONObject;
  */
 public class FastJSON {
     public static void main(String[] args) {
+        String b = null;
+        String a = new String(b);
         FastJSON fastJSON = new FastJSON();
         fastJSON.setSong("s");
         fastJSON.setCheng(123);

@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bean" />
+        <module name="com.app.bean" />
         <module name="dailydemo" />
         <module name="dubbo-api" />
         <module name="dubbo-consumer" />
@@ -16,7 +16,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="bean" target="1.7" />
+      <module name="com.app.bean" target="1.7" />
       <module name="dailydemo" target="1.7" />
       <module name="dubbo-api" target="1.7" />
       <module name="dubbo-consumer" target="1.7" />
