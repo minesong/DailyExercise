@@ -9,6 +9,8 @@ import com.alibaba.fastjson.JSONObject;
  * Created by songchengxiang on 2018/5/30.
  */
 public class FastJSON {
+
+
     public static void main(String[] args) {
         String b = null;
         String a = new String(b);

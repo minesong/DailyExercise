@@ -14,6 +14,40 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class TestNG {
+    class  A {
+        public Integer a;
+
+        public Integer getA() {
+            return a;
+        }
+
+        public void setA(Integer a) {
+            this.a = a;
+        }
+    }
+    @Test
+    public void testMap() {
+        List<A> aList = new ArrayList<>();
+        for (A a:aList) {
+            System.out.println(1);
+        }
+        A aa = new A();
+        aa.setA(1);
+        aList.add(aa);
+        //aa = new A();
+        aa.setA(2);
+        aList.add(aa);
+        boolean a = true;
+        boolean b = false;
+        Map<Integer, Boolean> map = new HashMap<>();
+        map.put(1, a || b);
+        map.put(2, b || a);
+        map.put(3, a && b);
+        map.put(4, a & b);
+        map.put(5, a == false || b == true);
+        map.put(6, b == true || a == true);
+        System.out.println(map);
+    }
 
     @Test
     public void testcase1() {
