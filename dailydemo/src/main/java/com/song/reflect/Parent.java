@@ -4,7 +4,7 @@ public class Parent {
     private Integer pid;
     protected String pname;
     public String ppassword;
-    String pemail;
+    String pemail ="123";
     public void see(){
         System.out.println("parent");
     }
@@ -38,5 +38,8 @@ public class Parent {
 
     public void setPemail(String pemail) {
         this.pemail = pemail;
+    }
+    public void test() {
+        System.out.println(pemail);
     }
 }

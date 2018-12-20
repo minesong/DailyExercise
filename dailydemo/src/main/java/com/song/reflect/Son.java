@@ -51,6 +51,7 @@ public class Son extends Parent {
     public static void main(String[] args) {
 
         Son son = new Son();
+
         Parent parent = new Son();
         parent.see();
         getDeclaredFields(son);

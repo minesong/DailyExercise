@@ -1,16 +1,29 @@
 package com.song.beantils;
 
+import com.alibaba.fastjson.JSONArray;
 import com.song.Person;
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.beanutils.PropertyUtils;
 import org.joda.time.DateTime;
+import org.testng.collections.Lists;
 
+import javax.json.Json;
 import java.lang.reflect.InvocationTargetException;
 import java.sql.Timestamp;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class BeanUtilsAPP {
     public static void main(String[] args) throws InvocationTargetException, IllegalAccessException, NoSuchMethodException {
+        User user = new User();
+        user.setIid(123L);
+        user.setSuccess(true);
+        user.setLid(999);
+        List<User> userList = Lists.newArrayList(user);
+        String json = JSONArray.toJSONString(userList);
+        List<String> list = JSONArray.parseArray(json,String.class);
+
         DateTime time = new DateTime(new Timestamp(System.currentTimeMillis()));
         test(1000000);
         test(1000);

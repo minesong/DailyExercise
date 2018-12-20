@@ -9,6 +9,7 @@ public class User implements Serializable {
     private String password;
     private Long iid;
     private Integer lid;
+    private boolean isSuccess;
 
     public Long getIid() {
         return iid;
@@ -40,6 +41,14 @@ public class User implements Serializable {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public boolean isSuccess() {
+        return isSuccess;
+    }
+
+    public void setSuccess(boolean success) {
+        isSuccess = success;
     }
 
     public String toString() {
