@@ -1,4 +1,0 @@
-Manifest-Version: 1.0
-Premain-Class: com.song.myagent.App
-Can-Redefine-Classes: true
-

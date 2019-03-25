@@ -1,13 +1,14 @@
 package com.song.file;
 
 import java.io.*;
+import java.util.Objects;
 
-public abstract class Parsing {
+public  class Parsing {
     /**
      * 替换动作的实现
      *
      * @param txtPath 将要操作的文件对象路径
-     * @param idNum   需要查找的行
+     * @param idNum   需要查找的行/老字符串
      * @param newStr  用于替换的字符串
      */
     public boolean replaceStr(String txtPath, String idNum, String newStr) {
@@ -25,14 +26,21 @@ public abstract class Parsing {
         try {
             reader = new InputStreamReader(new FileInputStream(txtPath));
             br = new BufferedReader(reader);
+            boolean codeBegin = false;
+            boolean dataEdnd = false;
             while ((line = br.readLine()) != null) {
-                if (!isRepSucc && line.contains(idNum)) {
-                    String target = spiltAndReplace(line);
-                    if (target != null) {
-                        int idx = line.indexOf(target);
-                        line = line.substring(0, idx) + newStr + line.substring(idx + target.length());
-                        isRepSucc = true;
-                    }
+                String tmp = line.replace(" ", "");
+                if (tmp.equals("/*CODE*/")) {
+                    codeBegin = true;
+                }
+                if (tmp.equals("/*DATA*/")) {
+                    dataEdnd = true;
+                }
+                if (codeBegin && !dataEdnd) {
+                    line = line.replace(idNum, newStr);
+                }
+                if (dataEdnd) {
+                    line = line.replace(idNum, newStr);
                 }
                 sb.append(line + "\r");
             }
@@ -51,14 +59,6 @@ public abstract class Parsing {
         return isRepSucc;
 
     }
-
-    /**
-     * 获取需要替换掉的字符串
-     *
-     * @param line
-     * @return
-     */
-    public abstract String spiltAndReplace(String line);
 
     /*
     字符串的非空校验

@@ -29,6 +29,7 @@ public class IteratorTest {
 
         System.out.println(personList);
         List<Integer> list = Lists.newArrayList();
+        list.remove(Integer.valueOf(1));
         list.add(1);
         list.add(5);
         list.add(5);
