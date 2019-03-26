@@ -15,7 +15,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class IteratorTest {
-    public static void main(String[] args) throws ParseException{
+    public static void main(String[] args) throws ParseException {
 
         List<Person> personList = Lists.newArrayList(new Person(1, "s"), new Person(null, "c"), new Person(2, "x"), new Person(1, "z"));
         CollectionUtils.filter(personList, new Predicate() {
@@ -33,13 +33,7 @@ public class IteratorTest {
         list.add(1);
         list.add(5);
         list.add(5);
-        list.add(6);
-        list.add(4);
-        list.add(3);
-        list.add(5);
-        list.add(6);
-        list.add(3);
-        list.add(6);
+        Integer a = list.stream().reduce(9, (i, j) -> i + j);
 
         //System.out.println(l);
         System.out.println(list);

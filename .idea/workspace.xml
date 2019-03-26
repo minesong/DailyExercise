@@ -1,96 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="103cc729-45c0-4a25-8264-4c8e32edd407" name="Default" comment="ceshi">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/Person.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bean/target/classes/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bean/target/classes/com/app/bean/App.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bean/target/classes/com/app/bean/BeanPostProcessor_1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bean/target/classes/com/app/bean/BeanPostProcessor_2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bean/target/classes/com/app/bean/TestBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bean/target/classes/com/app/bean/TestBean2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/xml/parsing/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/abstracttest/Demo$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/abstracttest/Demo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/abstracttest/GrandParents.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/abstracttest/Login$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/abstracttest/Login$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/abstracttest/Login.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/abstracttest/MyFirstJFrame$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/abstracttest/MyFirstJFrame$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/abstracttest/MyFirstJFrame$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/abstracttest/MyFirstJFrame.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/abstracttest/Parents.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/abstracttest/Son.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/abstracttest/day21.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/beantils/MyUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/beantils/TestBeanUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/beantils/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/ioutils/IOUtilsTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/list/IteratorTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/reflect/FastJSON.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/reflect/Parent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/reflect/Son.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/simple/Items.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/simple/ItemsTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/simple/LatticeSystem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/simple/LatticeSystemEnv.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/simple/LatticeTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/simple/ModelParameter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/simple/Rows.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/simple/SpiritValue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/simple/SystemEnv.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/xml/parsing/AddressBlock.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/xml/parsing/AddressSpace.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/xml/parsing/AddressSpaces.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/xml/parsing/General.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/xml/parsing/LatticeSystem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/xml/parsing/LocalMemoryMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/xml/parsing/Maintest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/xml/parsing/MemoryMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/xml/parsing/MemoryMaps.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/xml/parsing/ModelParameter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/xml/parsing/ModelParameters.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/xml/parsing/ParamConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/xml/parsing/Segment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/xml/parsing/Segments.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/xml/parsing/SpiritAddressBlock.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/xml/parsing/SpiritComponent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/xml/parsing/SpiritValue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/xml/parsing/SystemEnv.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/com/song/xml/parsing/Test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/classes/s/sys_env.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/test-classes/com/song/testng/test/MockTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/test-classes/com/song/testng/test/SubZeroAndDot.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/test-classes/com/song/testng/test/TestDateRelated.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dailydemo/target/test-classes/com/song/testng/test/TestNG.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dubbo-api/target/classes/com/alibaba/dubbo/demo/DemoService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dubbo-api/target/classes/com/alibaba/dubbo/demo/MyUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/com/alibaba/dubbo/consumer/Consumer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/consumer.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/log4j.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dubbo-consumer2/target/classes/com/alibaba/dubbo/consumer/Consumer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dubbo-consumer2/target/classes/com/alibaba/dubbo/consumer/Parent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dubbo-consumer2/target/classes/com/alibaba/dubbo/consumer/Son.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dubbo-consumer2/target/classes/consumer.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dubbo-consumer2/target/classes/log4j.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dubbo-provider/target/classes/com/alibaba/dubbo/demo/impl/DemoServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dubbo-provider/target/classes/com/alibaba/dubbo/demo/impl/Provider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dubbo-provider/target/classes/log4j.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dubbo-provider/target/classes/provider.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javaagent/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javaagent/target/classes/com/song/myagent/App.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javaagent/target/classes/com/song/myagent/FirstAgent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javaagent/target/classes/view/utils/Miaosha360buy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javaagent/target/classes/view/utils/ThreadOne360buy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javaagent/target/classes/view/utils/Util.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javaagent/target/classes/view/utils/oenCMD.class" afterPath="" />
+    <list default="true" id="103cc729-45c0-4a25-8264-4c8e32edd407" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/ExcelParsing.java" afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/ExcelParsing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/Parsing.java" afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/Parsing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/Testparsing.java" afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/Testparsing.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DubboDemo.iml" afterPath="$PROJECT_DIR$/DubboDemo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bean/com.app.bean.iml" afterPath="$PROJECT_DIR$/bean/com.app.bean.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dailydemo/dailydemo.iml" afterPath="$PROJECT_DIR$/dailydemo/dailydemo.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/list/IteratorTest.java" afterPath="$PROJECT_DIR$/dailydemo/src/main/java/com/song/list/IteratorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dailydemo/src/test/test.iml" afterPath="$PROJECT_DIR$/dailydemo/src/test/test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-api/dubbo-api.iml" afterPath="$PROJECT_DIR$/dubbo-api/dubbo-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-api/src/main/main2.iml" afterPath="$PROJECT_DIR$/dubbo-api/src/main/main2.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-consumer/dubbo-consumer.iml" afterPath="$PROJECT_DIR$/dubbo-consumer/dubbo-consumer.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-consumer2/dubbo-consumer2.iml" afterPath="$PROJECT_DIR$/dubbo-consumer2/dubbo-consumer2.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-consumer2/src/main/main4.iml" afterPath="$PROJECT_DIR$/dubbo-consumer2/src/main/main4.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" afterPath="$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -117,112 +42,109 @@
     </SUITE>
   </component>
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="C:\haitao\DailyExercise" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IteratorTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IteratorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/list/IteratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+            <state relative-caret-position="360">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="e#755#996#0" expanded="false" />
+                <element signature="e#995#996#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="e#1139#1140#0" expanded="false" />
-                <element signature="e#1166#1167#0" expanded="false" />
-                <element signature="e#1206#1207#0" expanded="false" />
-                <element signature="e#1238#1239#0" expanded="false" />
-                <element signature="e#1273#1274#0" expanded="false" />
-                <element signature="e#1304#1305#0" expanded="false" />
-                <element signature="e#1352#1353#0" expanded="false" />
-                <element signature="e#1392#1393#0" expanded="false" />
-                <element signature="e#1423#1424#0" expanded="false" />
-                <element signature="e#1449#1450#0" expanded="false" />
-                <element signature="e#1488#1489#0" expanded="false" />
-                <element signature="e#1518#1519#0" expanded="false" />
-                <element signature="e#1564#1565#0" expanded="false" />
-                <element signature="e#1661#1662#0" expanded="false" />
-                <element signature="e#2340#2341#0" expanded="false" />
-                <element signature="e#2367#2368#0" expanded="false" />
-                <element signature="e#2408#2409#0" expanded="false" />
-                <element signature="e#2440#2441#0" expanded="false" />
-                <element signature="e#2475#2476#0" expanded="false" />
-                <element signature="e#2506#2507#0" expanded="false" />
-                <element signature="e#2554#2555#0" expanded="false" />
-                <element signature="e#2594#2595#0" expanded="false" />
-              </folding>
-            </state>
+      <file leaf-file-name="1492160801203.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1492160801203.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/lang/String.java">
+      <file leaf-file-name="Stream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/stream/Stream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25944">
-              <caret line="1136" column="15" lean-forward="false" selection-start-line="1136" selection-start-column="15" selection-end-line="1136" selection-end-column="15" />
+            <state relative-caret-position="172">
+              <caret line="606" column="6" lean-forward="false" selection-start-line="606" selection-start-column="6" selection-end-line="606" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Objects.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/Objects.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3456">
-              <caret line="179" column="26" lean-forward="false" selection-start-line="179" selection-start-column="26" selection-end-line="179" selection-end-column="26" />
+            <state relative-caret-position="351">
+              <caret line="278" column="27" lean-forward="false" selection-start-line="278" selection-start-column="27" selection-end-line="278" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Comparator.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/Comparator.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-provider/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2856">
-              <caret line="142" column="8" lean-forward="false" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="8" />
+            <state relative-caret-position="-105">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parsing.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/Parsing.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-consumer2/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="-144">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExcelParsing.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/ExcelParsing.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-consumer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dailydemo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/ArrayList.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11976">
-              <caret line="532" column="19" lean-forward="false" selection-start-line="532" selection-start-column="19" selection-end-line="532" selection-end-column="19" />
+            <state relative-caret-position="172">
+              <caret line="501" column="0" lean-forward="false" selection-start-line="501" selection-start-column="0" selection-end-line="501" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExcelParsing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/ExcelParsing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="132" column="21" lean-forward="false" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -255,10 +177,11 @@
       <list>
         <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/Parsing.java" />
         <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/Testparsing.java" />
-        <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/list/IteratorTest.java" />
         <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/Person.java" />
         <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/xml/parsing/Test.java" />
         <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/ExcelParsing.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/dailydemo/src/main/java/com/song/list/IteratorTest.java" />
       </list>
     </option>
   </component>
@@ -271,8 +194,24 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1932" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Ali-Check</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -289,9 +228,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -314,7 +253,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dailydemo" />
+              <option name="myItemId" value="javaagent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,204 +267,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dailydemo" />
+              <option name="myItemId" value="bean" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DailyExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DailyExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailydemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DailyExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DailyExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailydemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="song" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DailyExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DailyExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailydemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="song" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parsing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DailyExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DailyExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailydemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="song" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DailyExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DailyExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailydemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="song" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="file" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DailyExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DailyExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailydemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="song" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="file" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Person.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -536,12 +279,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.ExcelParsing">
+  <component name="RunManager" selected="Application.IteratorTest">
     <configuration default="false" name="ExcelParsing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1010,9 +753,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.ExcelParsing" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Person" />
-        <item index="2" class="java.lang.String" itemvalue="Application.IteratorTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.IteratorTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ExcelParsing" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Person" />
         <item index="3" class="java.lang.String" itemvalue="Application.Testparsing" />
       </list>
     </recent_temporary>
@@ -1053,7 +796,8 @@
       <workItem from="1551317829150" duration="2533000" />
       <workItem from="1551404564115" duration="604000" />
       <workItem from="1552502416939" duration="1305000" />
-      <workItem from="1553497193228" duration="428000" />
+      <workItem from="1553497193228" duration="1632000" />
+      <workItem from="1553578425544" duration="1097000" />
     </task>
     <task id="LOCAL-00001" summary="ceshi">
       <created>1545308041875</created>
@@ -1062,14 +806,21 @@
       <option name="project" value="LOCAL" />
       <updated>1545308041875</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ceshi">
+      <created>1553497655774</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553497655774</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46906000" />
+    <option name="totallyTimeSpent" value="49207000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1085,8 +836,9 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3909091" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.390625" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1094,8 +846,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24786781" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25053418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1104,7 +856,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284091" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1166,12 +917,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/ArrayList.java</url>
-          <line>501</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/ArrayList.java</url>
           <line>522</line>
           <properties />
           <option name="timeStamp" value="25" />
@@ -1206,11 +951,17 @@
           <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/list/IteratorTest.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="41" />
+      <option name="time" value="44" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1219,18 +970,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.12/poi-3.12-sources.jar!/org/apache/poi/ss/usermodel/Row.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/ExcelParsing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24072">
           <caret line="1015" column="12" lean-forward="false" selection-start-line="1015" selection-start-column="12" selection-end-line="1015" selection-end-column="55" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1238,7 +984,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1263,81 +1011,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24072">
           <caret line="1015" column="12" lean-forward="false" selection-start-line="1015" selection-start-column="12" selection-end-line="1015" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/Parsing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/Testparsing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.12/poi-3.12-sources.jar!/org/apache/poi/ss/usermodel/Row.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/ExcelParsing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24072">
-          <caret line="1015" column="12" lean-forward="false" selection-start-line="1015" selection-start-column="12" selection-end-line="1015" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/Parsing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/Testparsing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.12/poi-3.12-sources.jar!/org/apache/poi/ss/usermodel/Row.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/ExcelParsing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24072">
-          <caret line="1015" column="12" lean-forward="false" selection-start-line="1015" selection-start-column="12" selection-end-line="1015" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/Parsing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1362,7 +1048,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1377,7 +1065,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1392,7 +1082,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1400,7 +1092,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1520,63 +1214,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dailydemo/target/classes/com/song/MaximumProduct.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailydemo/target/classes/com/song/GuavaTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailydemo/target/classes/com/song/FormatterTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailydemo/target/classes/com/song/DFSTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailydemo/target/classes/com/song/Point.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailydemo/target/classes/com/song/Person.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/list/IteratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/target/classes/com/song/MaximumProduct.class" />
+    <entry file="file://$PROJECT_DIR$/dailydemo/target/classes/com/song/GuavaTest.class" />
+    <entry file="file://$PROJECT_DIR$/dailydemo/target/classes/com/song/FormatterTest.class" />
+    <entry file="file://$PROJECT_DIR$/dailydemo/target/classes/com/song/DFSTest.class" />
+    <entry file="file://$PROJECT_DIR$/dailydemo/target/classes/com/song/Point.class" />
+    <entry file="file://$PROJECT_DIR$/dailydemo/target/classes/com/song/Person.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11976">
           <caret line="532" column="19" lean-forward="false" selection-start-line="532" selection-start-column="19" selection-end-line="532" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="e#0#42430#0" expanded="false" />
+            <element signature="e#9376#9377#0" expanded="false" />
+            <element signature="e#9403#9404#0" expanded="false" />
+            <element signature="e#9585#9586#0" expanded="false" />
+            <element signature="e#9617#9618#0" expanded="false" />
+            <element signature="e#10094#10095#0" expanded="false" />
+            <element signature="e#10132#10133#0" expanded="false" />
+            <element signature="e#12774#12775#0" expanded="false" />
+            <element signature="e#12829#12830#0" expanded="false" />
+            <element signature="e#14647#14648#0" expanded="false" />
+            <element signature="e#14692#14693#0" expanded="false" />
+            <element signature="e#23782#23783#0" expanded="false" />
+            <element signature="e#23836#23837#0" expanded="false" />
+            <element signature="e#24679#24680#0" expanded="false" />
+            <element signature="e#24723#24724#0" expanded="false" />
+            <element signature="e#25680#25681#0" expanded="false" />
+            <element signature="e#25723#25724#0" expanded="false" />
+            <element signature="e#29510#29511#0" expanded="false" />
+            <element signature="e#29547#29548#0" expanded="false" />
+            <element signature="e#29847#29848#0" expanded="false" />
+            <element signature="e#29879#29880#0" expanded="false" />
+            <element signature="e#30204#30205#0" expanded="false" />
+            <element signature="e#30249#30250#0" expanded="false" />
+            <element signature="e#31610#31611#0" expanded="false" />
+            <element signature="e#31652#31653#0" expanded="false" />
+            <element signature="e#31686#31687#0" expanded="false" />
+            <element signature="e#31723#31724#0" expanded="false" />
+            <element signature="e#31761#31762#0" expanded="false" />
+            <element signature="e#31802#31803#0" expanded="false" />
+            <element signature="e#37291#37292#0" expanded="false" />
+            <element signature="e#37342#37343#0" expanded="false" />
+            <element signature="e#37784#37785#0" expanded="false" />
+            <element signature="e#37829#37830#0" expanded="false" />
+            <element signature="e#38234#38235#0" expanded="false" />
+            <element signature="e#38308#38309#0" expanded="false" />
+            <element signature="e#38948#38949#0" expanded="false" />
+            <element signature="e#39006#39007#0" expanded="false" />
+            <element signature="e#39627#39628#0" expanded="false" />
+            <element signature="e#39680#39681#0" expanded="false" />
+            <element signature="e#39726#39727#0" expanded="false" />
+            <element signature="e#39783#39784#0" expanded="false" />
+            <element signature="e#42175#42176#0" expanded="false" />
+            <element signature="e#42242#42243#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1584,7 +1276,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2856">
           <caret line="142" column="8" lean-forward="false" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="8" />
-          <folding />
+          <folding>
+            <element signature="e#0#7313#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1592,7 +1286,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3456">
           <caret line="179" column="26" lean-forward="false" selection-start-line="179" selection-start-column="26" selection-end-line="179" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="e#0#7799#0" expanded="false" />
+            <element signature="e#584#585#0" expanded="false" />
+            <element signature="e#667#668#0" expanded="false" />
+            <element signature="e#1373#1374#0" expanded="false" />
+            <element signature="e#1434#1435#0" expanded="false" />
+            <element signature="e#2749#2750#0" expanded="false" />
+            <element signature="e#2800#2801#0" expanded="false" />
+            <element signature="e#3877#3878#0" expanded="false" />
+            <element signature="e#3923#3924#0" expanded="false" />
+            <element signature="e#4363#4364#0" expanded="false" />
+            <element signature="e#4403#4404#0" expanded="false" />
+            <element signature="e#4977#4978#0" expanded="false" />
+            <element signature="e#5040#5041#0" expanded="false" />
+            <element signature="e#5923#5924#0" expanded="false" />
+            <element signature="e#5977#5978#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1600,7 +1310,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25944">
           <caret line="1136" column="15" lean-forward="false" selection-start-line="1136" selection-start-column="15" selection-end-line="1136" selection-end-column="15" />
-          <folding />
+          <folding>
+            <element signature="e#0#122414#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4846#4847#0" expanded="false" />
+            <element signature="e#4886#4887#0" expanded="false" />
+            <element signature="e#5859#5860#0" expanded="false" />
+            <element signature="e#5922#5923#0" expanded="false" />
+            <element signature="e#12931#12932#0" expanded="false" />
+            <element signature="e#12983#12984#0" expanded="false" />
+            <element signature="e#18614#18615#0" expanded="false" />
+            <element signature="e#18667#18668#0" expanded="false" />
+            <element signature="e#20560#20561#0" expanded="false" />
+            <element signature="e#20604#20605#0" expanded="false" />
+            <element signature="e#21794#21795#0" expanded="false" />
+            <element signature="e#21874#21875#0" expanded="false" />
+            <element signature="e#22493#22494#0" expanded="false" />
+            <element signature="e#22535#22536#0" expanded="false" />
+            <element signature="e#22850#22851#0" expanded="false" />
+            <element signature="e#22885#22886#0" expanded="false" />
+            <element signature="e#23141#23142#0" expanded="false" />
+            <element signature="e#23181#23182#0" expanded="false" />
+            <element signature="e#29826#29827#0" expanded="false" />
+            <element signature="e#29897#29898#0" expanded="false" />
+            <element signature="e#36782#36783#0" expanded="false" />
+            <element signature="e#36848#36849#0" expanded="false" />
+            <element signature="e#47408#47409#0" expanded="false" />
+            <element signature="e#47472#47473#0" expanded="false" />
+            <element signature="e#55768#55769#0" expanded="false" />
+            <element signature="e#55812#55813#0" expanded="false" />
+            <element signature="e#56425#56426#0" expanded="false" />
+            <element signature="e#56502#56503#0" expanded="false" />
+            <element signature="e#58524#58525#0" expanded="false" />
+            <element signature="e#58561#58562#0" expanded="false" />
+            <element signature="e#62972#62973#0" expanded="false" />
+            <element signature="e#63028#63029#0" expanded="false" />
+            <element signature="e#66593#66594#0" expanded="false" />
+            <element signature="e#66631#66632#0" expanded="false" />
+            <element signature="e#70089#70090#0" expanded="false" />
+            <element signature="e#70142#70143#0" expanded="false" />
+            <element signature="e#76845#76846#0" expanded="false" />
+            <element signature="e#76904#76905#0" expanded="false" />
+            <element signature="e#81336#81337#0" expanded="false" />
+            <element signature="e#81387#81388#0" expanded="false" />
+            <element signature="e#81771#81772#0" expanded="false" />
+            <element signature="e#81820#81821#0" expanded="false" />
+            <element signature="e#93265#93266#0" expanded="false" />
+            <element signature="e#93303#93304#0" expanded="false" />
+            <element signature="e#100216#100217#0" expanded="false" />
+            <element signature="e#100271#100272#0" expanded="false" />
+            <element signature="e#106802#106803#0" expanded="false" />
+            <element signature="e#106857#106858#0" expanded="false" />
+            <element signature="e#108993#108994#0" expanded="false" />
+            <element signature="e#109020#109021#0" expanded="false" />
+            <element signature="e#113752#113753#0" expanded="false" />
+            <element signature="e#113814#113815#0" expanded="false" />
+            <element signature="e#114321#114322#0" expanded="false" />
+            <element signature="e#114360#114361#0" expanded="false" />
+            <element signature="e#115506#115507#0" expanded="false" />
+            <element signature="e#115560#115561#0" expanded="false" />
+            <element signature="e#116474#116475#0" expanded="false" />
+            <element signature="e#116513#116514#0" expanded="false" />
+            <element signature="e#116906#116907#0" expanded="false" />
+            <element signature="e#116949#116950#0" expanded="false" />
+            <element signature="e#117784#117785#0" expanded="false" />
+            <element signature="e#117826#117827#0" expanded="false" />
+            <element signature="e#118261#118262#0" expanded="false" />
+            <element signature="e#118300#118301#0" expanded="false" />
+            <element signature="e#118742#118743#0" expanded="false" />
+            <element signature="e#118782#118783#0" expanded="false" />
+            <element signature="e#119232#119233#0" expanded="false" />
+            <element signature="e#119273#119274#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1608,16 +1389,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/xml/parsing/Test.java" />
     <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
+        <state relative-caret-position="552">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="e#1139#1140#0" expanded="false" />
             <element signature="e#1166#1167#0" expanded="false" />
             <element signature="e#1206#1207#0" expanded="false" />
@@ -1647,8 +1431,90 @@
     <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/file/ExcelParsing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <caret line="132" column="21" lean-forward="false" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1-sources.jar!/org/apache/commons/collections4/CollectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="606" column="6" lean-forward="false" selection-start-line="606" selection-start-column="6" selection-end-line="606" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="278" column="27" lean-forward="false" selection-start-line="278" selection-start-column="27" selection-end-line="278" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1492160801203.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="501" column="0" lean-forward="false" selection-start-line="501" selection-start-column="0" selection-end-line="501" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailydemo/src/main/java/com/song/list/IteratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#755#996#0" expanded="false" />
+            <element signature="e#995#996#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1706,7 +1572,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>test</last-edited>
+          <last-edited>dailydemo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1732,6 +1598,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
