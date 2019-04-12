@@ -29,26 +29,32 @@ public class ExcelParsing {
         }
         System.out.println();
         try {
-            ArrayList<Map<String, String>> mapList = readExcel("C:\\11.xlsx");
+            List<String> list1 = Lists.newArrayList();
+            ArrayList<Map<String, String>> mapList = readExcel("D:\\123.xls");
             List<Long> list = Lists.newArrayList();
+            String  res = "";
             for (Map<String, String> map : mapList) {
                 if (MapUtils.isEmpty(map)) {
                     continue;
                 }
-                String code = map.get("goodid");
-
-                    try {
-                        code=code.replace("\\s","").replace("\n","");
-                        Long codeint = Long.parseLong(code);
-                        list.add(codeint);
-                    } catch (Exception e) {
-
-                    }
-
+                String code = map.get("合并编码");
+                if (StringUtils.isBlank(code)) {
+                    continue;
                 }
-
-            String s2 = JSON.toJSONString(list);
-            System.out.println(s2);
+                String name=map.get("商品和服务名称");
+                String simple=map.get("说明");
+                String kye=map.get("关键字");
+                StringBuilder sb = new StringBuilder("insert into tb_tax_category_code (category_code,category_name,category_desc,category_keyword,update_time) values (");
+                sb.append("'"+code+"',");
+                sb.append("'"+(StringUtils.isBlank(name)?"":name)+"',");
+                sb.append("'"+(StringUtils.isBlank(simple)?"":simple)+"',");
+                sb.append("'"+(StringUtils.isBlank(kye)?"":kye)+"',");
+                sb.append("now());");
+                res+=sb+"\n";
+                list1.add(sb.toString());
+            }
+            String s2 = JSON.toJSONString(list1);
+            System.out.println(res);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -86,7 +92,7 @@ public class ExcelParsing {
             }
 
             //开始解析
-            Sheet sheet = wb.getSheetAt(0);
+            Sheet sheet = wb.getSheetAt(3);
             //第一行是列名，所以从第二行开始遍历
             int firstRowNum = sheet.getFirstRowNum() + 1;
             int lastRowNum = sheet.getLastRowNum();

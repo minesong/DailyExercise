@@ -10,6 +10,7 @@ import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.collections4.Predicate;
 
 import java.lang.reflect.InvocationTargetException;
+import java.math.BigDecimal;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -29,12 +30,13 @@ public class IteratorTest {
 
         System.out.println(personList);
         List<Integer> list = Lists.newArrayList();
+        List<BigDecimal> list1 = Lists.newArrayList();
+        list1.add(null);
+       BigDecimal he =  list1.stream().filter(i->Objects.nonNull(i)).reduce(BigDecimal.ZERO,BigDecimal::add);
         list.remove(Integer.valueOf(1));
         list.add(1);
+        list.add(null);
         list.add(5);
-        list.add(5);
-        Integer a = list.stream().reduce(9, (i, j) -> i + j);
-
         //System.out.println(l);
         System.out.println(list);
         SimpleDateFormat format = new SimpleDateFormat("yyyyMMdd");
@@ -78,4 +80,18 @@ public class IteratorTest {
     }
 
 
+}
+
+class IntegerCalUtils {
+    Integer sum(Integer a, Integer b) {
+        a = a == null ? 0 : a;
+        b = b == null ? 0 : b;
+        return a + b;
+    }
+
+    BigDecimal add(BigDecimal a, BigDecimal b) {
+        a = a == null ? BigDecimal.ZERO : a;
+        b = b == null ? BigDecimal.ZERO : b;
+        return a.add(b);
+    }
 }
