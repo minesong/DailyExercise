@@ -9,11 +9,11 @@ public class Coin {
     /**
      * 硬币组合
      */
-    private static final List<Integer> COIN_COMBINATION = Lists.newArrayList(1, 3, 5, 11);
+    private static final List<Integer> COIN_COMBINATION = Lists.newArrayList(1, 5, 11);
     private static final List<String> list = Lists.newArrayList();
 
     public static void main(String[] args) {
-        for (int i = 0; i <= 999; i++) {
+      /*  for (int i = 0; i <= 999; i++) {
             String num = "";
             if (i < 10) {
                 num = "00" + i;
@@ -26,7 +26,7 @@ public class Coin {
             productOfTwoNo(Long.valueOf(num));
         }
         System.out.println(list);
-        System.out.println(list.size());
+        System.out.println(list.size());*/
 
 
         dpsFind(new Stack<Integer>(), 0, 15);
