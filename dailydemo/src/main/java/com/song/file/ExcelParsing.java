@@ -2,6 +2,7 @@ package com.song.file;
 
 import com.alibaba.fastjson.JSON;
 import com.beust.jcommander.internal.Lists;
+import com.beust.jcommander.internal.Maps;
 import org.apache.commons.collections.MapUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
@@ -14,6 +15,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import javax.json.Json;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.Serializable;
+import java.math.BigDecimal;
 import java.util.*;
 
 public class ExcelParsing {
@@ -21,40 +24,41 @@ public class ExcelParsing {
     private static ArrayList<Map<String, String>> mapArrayList2 = new ArrayList<>();
 
     public static void main(String[] args) {
-        String str="2508810,\n" +
-                "2570727,";
-        String strs[]=str.split(",");
-        for (int i=0;i<strs.length;i++){
-            strs[i]=StringUtils.deleteWhitespace(strs[i]);
-        }
+
         System.out.println();
         try {
-            List<String> list1 = Lists.newArrayList();
-            ArrayList<Map<String, String>> mapList = readExcel("D:\\123.xls");
-            List<Long> list = Lists.newArrayList();
-            String  res = "";
+            ArrayList<Map<String, String>> mapList1 = readExcel("/Users/scx/Desktop/code.xlsx");
+
+            Map<String, String> place = Maps.newHashMap();
+            for (Map<String, String> map : mapList1) {
+                if (MapUtils.isEmpty(map)) {
+                    continue;
+                }
+                place.put(map.get("name").substring(0, 2), map.get("code"));
+
+            }
+            System.out.println(JSON.toJSON(place));
+            ArrayList<Map<String, String>> mapList = readExcel("/Users/scx/Desktop/1.xlsx");
+            String res = "";
+            List<PostageTemplateDetailTemp> temps = Lists.newArrayList();
             for (Map<String, String> map : mapList) {
                 if (MapUtils.isEmpty(map)) {
                     continue;
                 }
-                String code = map.get("合并编码");
+                PostageTemplateDetailTemp temp = new PostageTemplateDetailTemp();
+                temps.add(temp);
+                temp.setBeginPlace(map.get("始发地"));
+                String code = place.get(map.get("目的省").substring(0, 2));
                 if (StringUtils.isBlank(code)) {
-                    continue;
+                    System.out.println(JSON.toJSON(map));
+                    System.out.println("-----");
                 }
-                String name=map.get("商品和服务名称");
-                String simple=map.get("说明");
-                String kye=map.get("关键字");
-                StringBuilder sb = new StringBuilder("insert into tb_tax_category_code (category_code,category_name,category_desc,category_keyword,update_time) values (");
-                sb.append("'"+code+"',");
-                sb.append("'"+(StringUtils.isBlank(name)?"":name)+"',");
-                sb.append("'"+(StringUtils.isBlank(simple)?"":simple)+"',");
-                sb.append("'"+(StringUtils.isBlank(kye)?"":kye)+"',");
-                sb.append("now());");
-                res+=sb+"\n";
-                list1.add(sb.toString());
+                temp.setEndPlace(StringUtils.deleteWhitespace(code));
+                temp.setStartFee(new BigDecimal(map.get("首重1kg")).setScale(2, BigDecimal.ROUND_HALF_UP));
+                temp.setAddFee(new BigDecimal(map.get("续重1KG")).setScale(2, BigDecimal.ROUND_HALF_UP));
             }
-            String s2 = JSON.toJSONString(list1);
-            System.out.println(res);
+            String s2 = StringUtils.deleteWhitespace(JSON.toJSONString(temps));
+            System.out.println(s2);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -92,7 +96,7 @@ public class ExcelParsing {
             }
 
             //开始解析
-            Sheet sheet = wb.getSheetAt(3);
+            Sheet sheet = wb.getSheetAt(0);
             //第一行是列名，所以从第二行开始遍历
             int firstRowNum = sheet.getFirstRowNum() + 1;
             int lastRowNum = sheet.getLastRowNum();
@@ -165,6 +169,69 @@ public class ExcelParsing {
                 mapArrayList2.add(map2);
         }
 
+    }
+
+    public static class PostageTemplateDetailTemp implements Serializable {
+        private String beginPlace;
+
+        private String endPlace; //所适用的地址
+
+
+        private BigDecimal startStandards = BigDecimal.ONE; //初始量（重量，数量，体积）
+
+        private BigDecimal startFee; //收费
+
+        private BigDecimal addStandards = BigDecimal.ONE; //增加量（重量，数量，体积）
+
+        private BigDecimal addFee; //增费
+
+        public String getBeginPlace() {
+            return beginPlace;
+        }
+
+        public void setBeginPlace(String beginPlace) {
+            this.beginPlace = beginPlace;
+        }
+
+        public String getEndPlace() {
+            return endPlace;
+        }
+
+        public void setEndPlace(String endPlace) {
+            this.endPlace = endPlace;
+        }
+
+        public BigDecimal getStartStandards() {
+            return startStandards;
+        }
+
+        public void setStartStandards(BigDecimal startStandards) {
+            this.startStandards = startStandards;
+        }
+
+        public BigDecimal getStartFee() {
+            return startFee;
+        }
+
+        public void setStartFee(BigDecimal startFee) {
+            this.startFee = startFee;
+        }
+
+        public BigDecimal getAddStandards() {
+            return addStandards;
+        }
+
+        public void setAddStandards(BigDecimal addStandards) {
+            this.addStandards = addStandards;
+        }
+
+        public BigDecimal getAddFee() {
+            return addFee;
+        }
+
+        public void setAddFee(BigDecimal addFee) {
+            this.addFee = addFee;
+        }
     }
 
 }

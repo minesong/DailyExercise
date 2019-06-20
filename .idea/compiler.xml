@@ -23,7 +23,7 @@
       <module name="dubbo-consumer2" target="1.8" />
       <module name="dubbo-provider" target="1.8" />
       <module name="DubboDemo" target="1.8" />
-      <module name="javaagent" target="1.8" />
+      <module name="javaagent" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

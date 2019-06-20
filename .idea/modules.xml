@@ -10,11 +10,11 @@
       <module fileurl="file://$PROJECT_DIR$/dubbo-consumer2/dubbo-consumer2.iml" filepath="$PROJECT_DIR$/dubbo-consumer2/dubbo-consumer2.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" filepath="$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaagent/javaagent.iml" filepath="$PROJECT_DIR$/javaagent/javaagent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javaagent/src/main/main.iml" filepath="$PROJECT_DIR$/javaagent/src/main/main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dailydemo/src/main/main1.iml" filepath="$PROJECT_DIR$/dailydemo/src/main/main1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dubbo-api/src/main/main2.iml" filepath="$PROJECT_DIR$/dubbo-api/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-api/src/main/main.iml" filepath="$PROJECT_DIR$/dubbo-api/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaagent/src/main/main1.iml" filepath="$PROJECT_DIR$/javaagent/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-consumer2/src/main/main2.iml" filepath="$PROJECT_DIR$/dubbo-consumer2/src/main/main2.iml" />
       <module fileurl="file://$PROJECT_DIR$/bean/src/main/main3.iml" filepath="$PROJECT_DIR$/bean/src/main/main3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dubbo-consumer2/src/main/main4.iml" filepath="$PROJECT_DIR$/dubbo-consumer2/src/main/main4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dailydemo/src/main/main4.iml" filepath="$PROJECT_DIR$/dailydemo/src/main/main4.iml" />
       <module fileurl="file://$PROJECT_DIR$/dailydemo/src/test/test.iml" filepath="$PROJECT_DIR$/dailydemo/src/test/test.iml" />
     </modules>
   </component>

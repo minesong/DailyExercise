@@ -19,6 +19,6 @@
     <exclude-output />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="main3" />
+    <orderEntry type="module" module-name="main" />
   </component>
 </module>

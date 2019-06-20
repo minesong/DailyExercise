@@ -3,7 +3,7 @@ package com.song.concurrent;
 import java.util.concurrent.*;
 
 public class FutrueTaskTest {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException, ExecutionException, TimeoutException {
         Task task = new Task();// 新建异步任务
         FutureTask<Integer> future = new FutureTask<Integer>(task) {
             // 异步任务执行完成，回调
@@ -22,6 +22,7 @@ public class FutrueTaskTest {
         ExecutorService executor = Executors.newCachedThreadPool();
         executor.execute(future);
 
+
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e1) {
@@ -30,14 +31,9 @@ public class FutrueTaskTest {
         // 可以取消异步任务
         // future.cancel(true);
 
-        try {
-            // 阻塞，等待异步任务执行完毕-获取异步任务的返回值
-            System.out.println("future.get():" + future.get());
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
-            e.printStackTrace();
-        }
+
+        // 阻塞，等待异步任务执行完毕-获取异步任务的返回值
+        System.out.println("future.get():" + future.get(10, TimeUnit.MILLISECONDS));
     }
 
     // 异步任务
