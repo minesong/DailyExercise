@@ -1,21 +1,32 @@
 package com.song;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class DFSTest {
 
     public static void main(String[] args) {
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 5; j++) {
-                if (i == 1 && j == 4) {
-                    continue;
-                }
-                List<Point> points = new ArrayList<>();
-                dfs(i, j, points);
-            }
+        String s = Integer.toBinaryString('h');
+         Integer.toBinaryString('e');
+        Object[] a = new Object[0];
+        byte[] destBytes = new byte[5];
+        byte[] srcBytes = new byte[]{2, 4, 1, 2, 3, 4, 7, 10, 15, 50};
+        System.arraycopy(srcBytes, 0, destBytes, 2, 3);
+        System.out.println(Arrays.toString(destBytes));
+        ConcurrentHashMap<Integer, Integer> map = new ConcurrentHashMap<>(4);
+        for (int i = 1; i < 100; i++) {
+            map.put(i, i);
         }
+
+//        for (int i = 0; i < 5; i++) {
+//            for (int j = 0; j < 5; j++) {
+//                if (i == 1 && j == 4) {
+//                    continue;
+//                }
+//                List<Point> points = new ArrayList<>();
+//                dfs(i, j, points);
+//            }
+//        }
     }
 
     private static void dfs(int x, int y, List<Point> points) {

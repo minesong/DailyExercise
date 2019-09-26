@@ -8,14 +8,17 @@ import java.io.IOException;
  * Created by wy on 2017/4/13.
  */
 public class Provider {
-        public static void main(String[] args) throws IOException {
-            ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("provider.xml");
-            System.out.println(context.getDisplayName() + ": here");
-            context.start();
-            System.out.println("服务已经启动...");
-            //System.in.read()返回的是输入数值的 ASKII 码（一个 int 整数）
-           // System.in.read();
-            while (true);
-        }
+    public static void main(String[] args) throws IOException {
+        ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("provider.xml");
+        System.out.println(ctx.getDisplayName() + ": here");
+        ctx.start();
+        //2、从IOC容器中获取bean的实例
+        TargetClassI targetClass = (TargetClassI) ctx.getBean("targetClass");
+        Object p = ctx.getBean("aopAspect");
+
+        //3、使用bean
+        String result = targetClass.joint("spring", "aop");
+        System.out.println("result:" + result);
     }
+}
 

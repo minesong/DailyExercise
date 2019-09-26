@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans
-       http://www.springframework.org/schema/beans/spring-beans.xsd
-       http://code.alibabatech.com/schema/dubbo
-       http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd">
+    <!-- 注解扫描 -->
+
     <!--定义了提供方应用信息，用于计算依赖关系；在 dubbo-admin 或 dubbo-monitor 会显示这个名字，方便辨识-->
-    <dubbo:application name="demotest-provider" owner="programmer" organization="dubbox"/>
-    <!--使用 zookeeper 注册中心暴露服务，注意要先开启 zookeeper-->
-    <dubbo:registry address="zookeeper://localhost:2181"/>
-    <!-- 用dubbo协议在20880端口暴露服务 -->
-    <dubbo:protocol name="dubbo" port="20880" />
-    <!--使用 dubbo 协议实现定义好的 api.PermissionService 接口-->
-    <dubbo:service interface="com.alibaba.dubbo.demo.DemoService" ref="demoService" protocol="dubbo" />
-    <!--具体实现该接口的 bean-->
+    <!--    <dubbo:application name="demotest-provider" owner="programmer" organization="dubbox"/>-->
+    <!--    &lt;!&ndash;使用 zookeeper 注册中心暴露服务，注意要先开启 zookeeper&ndash;&gt;-->
+    <!--    <dubbo:registry address="zookeeper://localhost:2181"/>-->
+    <!--    &lt;!&ndash; 用dubbo协议在20880端口暴露服务 &ndash;&gt;-->
+    <!--    <dubbo:protocol name="dubbo" port="20880" />-->
+    <!--    &lt;!&ndash;使用 dubbo 协议实现定义好的 api.PermissionService 接口&ndash;&gt;-->
+    <!--    <dubbo:service interface="com.alibaba.dubbo.demo.DemoService" ref="demoService" protocol="dubbo" />-->
+    <!--    &lt;!&ndash;具体实现该接口的 bean&ndash;&gt;-->
     <bean id="demoService" class="com.alibaba.dubbo.demo.impl.DemoServiceImpl"/>
+
+    <!-- 注解扫描 -->
+    <context:component-scan base-package="com.alibaba"/>
+    <!--使用mvc注解声明  -->
+
+    <aop:aspectj-autoproxy proxy-target-class="true"></aop:aspectj-autoproxy>
 </beans>

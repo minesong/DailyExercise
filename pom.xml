@@ -13,6 +13,7 @@
         <module>dailydemo</module>
         <module>javaagent</module>
         <module>bean</module>
+        <module>write</module>
     </modules>
     <name>DubboDemo Maven Webapp</name>
     <url>http://maven.apache.org</url>

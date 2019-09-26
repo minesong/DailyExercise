@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:cache="http://www.springframework.org/schema/cache" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache-3.2.xsd
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-3.2.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--spring引用 1.2.28版本的fastjson 报NoClassDefFoundError: ResponseBodyAdvice-->
+    <!--https://blog.csdn.net/hjnth/article/details/79150198-->
+    <context:annotation-config/>
+    <context:component-scan base-package="com.song"/>
+
+    <bean id="initSequenceBean" class="com.song.beantils.InitSequenceBean"
+          init-method="initMethod">
+        <property name="age" value="324"></property>
+        <property name="properties" value="true"></property>
+    </bean>
+</beans>
